@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@id='DataTables_Table_0']/tbody/tr/td"
+}

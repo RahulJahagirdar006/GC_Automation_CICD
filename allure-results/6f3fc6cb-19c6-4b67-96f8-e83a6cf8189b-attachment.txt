@@ -1,0 +1,43 @@
+{
+  "id": {
+    "sessionId": "b4cfb437a0530ba8dfc7fa5217be4236",
+    "elementId": "f.A5A1332C796756C9F316D452E189CE49.d.6A750F9F55A124A267B07AA687C223DD.e.126",
+    "element-6066-11e4-a52e-4f735466cecf": "f.A5A1332C796756C9F316D452E189CE49.d.6A750F9F55A124A267B07AA687C223DD.e.126",
+    "selector": "//*[@id=\"frame-one796456169\"]",
+    "parent": {
+      "sessionId": "b4cfb437a0530ba8dfc7fa5217be4236",
+      "capabilities": {
+        "acceptInsecureCerts": false,
+        "browserName": "MicrosoftEdge",
+        "browserVersion": "126.0.2592.113",
+        "fedcm:accounts": true,
+        "ms:edgeOptions": {
+          "debuggerAddress": "localhost:56815"
+        },
+        "msedge": {
+          "msedgedriverVersion": "126.0.2592.113 (088a59f740646b4e18b4a42c30503103c0b1b0aa)",
+          "userDataDir": "C:\\Users\\RY214ZU\\AppData\\Local\\Temp\\scoped_dir23352_1065801788"
+        },
+        "networkConnectionEnabled": false,
+        "pageLoadStrategy": "normal",
+        "platformName": "windows",
+        "proxy": {},
+        "setWindowRect": true,
+        "strictFileInteractability": false,
+        "timeouts": {
+          "implicit": 0,
+          "pageLoad": 300000,
+          "script": 30000
+        },
+        "unhandledPromptBehavior": "dismiss and notify",
+        "webauthn:extension:credBlob": true,
+        "webauthn:extension:largeBlob": true,
+        "webauthn:extension:minPinLength": true,
+        "webauthn:extension:prf": true,
+        "webauthn:virtualAuthenticators": true
+      }
+    },
+    "isReactElement": false,
+    "isShadowElement": false
+  }
+}

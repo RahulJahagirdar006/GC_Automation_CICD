@@ -1,0 +1,88 @@
+**Functional Test Cases:**
+
+**TC1: Valid Login**
+* **Precondition:** Valid username and password are available.
+* **Steps:**
+    1. Navigate to the login page.
+    2. Enter the valid username and password.
+    3. Click the "Login" button.
+* **Expected Result:**
+    1. The user is successfully logged in and redirected to the dashboard.
+
+**TC2: Invalid Login**
+* **Precondition:** Incorrect username or password is provided.
+* **Steps:**
+    1. Navigate to the login page.
+    2. Enter the incorrect username or password.
+    3. Click the "Login" button.
+* **Expected Result:**
+    1. An error message is displayed, indicating that the login credentials are incorrect.
+
+**TC3: Empty Credentials Login**
+* **Precondition:** Empty username and password fields.
+* **Steps:**
+    1. Navigate to the login page.
+    2. Leave both username and password fields empty.
+    3. Click the "Login" button.
+* **Expected Result:**
+    1. An error message is displayed, indicating that the username and password fields cannot be empty.
+
+**TC4: Login with Caps Lock**
+* **Precondition:** Caps Lock is turned on.
+* **Steps:**
+    1. Navigate to the login page.
+    2. Enter the username and password with Caps Lock turned on.
+    3. Click the "Login" button.
+* **Expected Result:**
+    1. The user is successfully logged in, regardless of Caps Lock.
+
+**TC5: Login with Spaces in Credentials**
+* **Precondition:** Username or password contains spaces.
+* **Steps:**
+    1. Navigate to the login page.
+    2. Enter the username or password with spaces.
+    3. Click the "Login" button.
+* **Expected Result:**
+    1. An error message is displayed, indicating that spaces are not allowed in the credentials.
+
+**UI Test Cases:**
+
+**TC6: Layout Verification**
+* **Steps:**
+    1. Navigate to the login page.
+    2. Verify the presence and alignment of all UI elements, including the logo, input fields, button, and links.
+* **Expected Result:**
+    1. All UI elements are present and correctly aligned.
+
+**TC7: Input Field Validation**
+* **Steps:**
+    1. Navigate to the login page.
+    2. Attempt to enter invalid characters in the username or password fields.
+    3. Verify that the input fields display appropriate validation messages.
+* **Expected Result:**
+    1. Validation messages appear for invalid inputs, such as spaces, numbers, or special characters.
+
+**TC8: Button State**
+* **Steps:**
+    1. Navigate to the login page.
+    2. Verify that the "Login" button is initially disabled.
+    3. Enter valid credentials in the input fields.
+    4. Verify that the "Login" button becomes enabled.
+* **Expected Result:**
+    1. The "Login" button is disabled when credentials are invalid and enabled when they are valid.
+
+**TC9: Remember Me Checkbox**
+* **Steps:**
+    1. Navigate to the login page.
+    2. Select the "Remember Me" checkbox.
+    3. Close the browser.
+    4. Reopen the browser and navigate to the login page.
+* **Expected Result:**
+    1. If the user has previously selected "Remember Me," the username and password are automatically populated.
+
+**TC10: Forgot Password Link**
+* **Steps:**
+    1. Navigate to the login page.
+    2. Click the "Forgot Password" link.
+* **Expected Result:**
+    1. The user is redirected to a page where they can reset their password.

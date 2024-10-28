@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@class='main-menu__top-bar']//div//div//div//div/mat-button-toggle-group/mat-button-toggle/button/span"
+}

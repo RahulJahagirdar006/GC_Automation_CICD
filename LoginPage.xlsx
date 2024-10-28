@@ -1,0 +1,31 @@
+**Positive Test Cases**
+
+* **Username and Password Correct:** Enter a valid username and password.
+* **Special Characters in Username:** Use a username containing special characters (e.g., @, %, &).
+* **Case-Insensitive Username and Password:** Enter the username and password in both upper and lower case.
+* **Short Username and Password:** Enter a username and password with less than 6 characters.
+* **Long Username and Password:** Enter a username and password with more than 20 characters.
+* **Use Email Instead of Username:** Enter a valid email address as the username.
+* **Remember Me Option:** Select the "Remember Me" checkbox.
+* **Forgot Password Link:** Click the "Forgot Password" link and enter a valid email address.
+
+**Negative Test Cases**
+
+* **Empty Username or Password:** Leave either the username or password field empty.
+* **Incorrect Username:** Enter a nonexistent or invalid username.
+* **Incorrect Password:** Enter an incorrect password for a valid username.
+* **Case-Sensitive Password:** Enter the password with a different case than the original.
+* **Invalid Format Username:** Enter a username in an invalid format (e.g., without @ symbol for email).
+* **Invalid Format Password:** Enter a password that does not meet the required format (e.g., less than 6 characters).
+* **Username Not Registered:** Attempt to log in with a username that is not registered in the system.
+* **Account Locked:** Log in with a username whose account is locked.
+* **Disabled Account:** Log in with a username whose account is disabled.
+* **Wrong Website:** Try to log in on a different website using the same credentials.
+* **Fail Multiple Times:** Deliberately fail to log in multiple times to trigger any security measures.
+
+**Additional Test Cases**
+
+* **UI Verification:** Check that all UI elements (e.g., buttons, fields, links) are displayed correctly.
+* **Accessibility:** Ensure the page is accessible to users with disabilities.
+* **Performance:** Measure the time it takes to load and render the login page.
+* **Security:** Verify that the page uses appropriate security measures (e.g., HTTPS encryption, input validation).

@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@id='icon_shortcuts_52']/div[1]/div[1]//div[1]/a/div/p"
+}

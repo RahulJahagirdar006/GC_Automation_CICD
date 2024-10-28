@@ -1,0 +1,60 @@
+[
+    {     
+        "CompanyCode" : "9210",
+        "PurchaseOrderType" : "NB",
+        "Language" : "EN",
+        "PurchasingOrganization" : "9210",
+        "PurchasingGroup" : "U10",
+        "DocumentCurrency" : "USD",
+        "Supplier" : "17300003",
+ 
+      "to_PurchaseOrderItem": [
+        {
+        "PurchaseOrderItem" : "10",
+        "Material" : "R-302",
+        "OrderQuantity" : "20",
+        "Plant" : "9210",
+        "NetPriceAmount" : "10"       
+        }  
+      ]     
+},
+
+{    
+    "CompanyCode" : "1710",
+    "PurchaseOrderType" : "NB",
+    "Language" : "EN",
+    "PurchasingOrganization" : "1710",
+    "PurchasingGroup" : "001",
+    "DocumentCurrency" : "USD",
+    "Supplier" : "0017300001",
+
+  "to_PurchaseOrderItem": [
+    {
+    "PurchaseOrderItem" : "10",
+    "Material" : "R-302",
+    "OrderQuantity" : "100",
+    "Plant" : "1710",
+    "NetPriceAmount" : "10"       
+    }  
+  ]     
+},
+   {    
+      "CompanyCode" : "1710",
+      "PurchaseOrderType" : "NB",
+      "Language" : "EN",
+      "PurchasingOrganization" : "1710",
+      "PurchasingGroup" : "001",
+      "DocumentCurrency" : "USD",
+      "Supplier" : "0017300001",
+
+    "to_PurchaseOrderItem": [
+      {
+      "PurchaseOrderItem" : "50",
+      "Material" : "R-302",
+      "OrderQuantity" : "100",
+      "Plant" : "1710",
+      "NetPriceAmount" : "50"       
+      }  
+    ]     
+}
+]

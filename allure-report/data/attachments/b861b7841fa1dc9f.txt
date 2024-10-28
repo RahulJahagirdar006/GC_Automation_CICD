@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div/span[@id='err_pwd']"
+}

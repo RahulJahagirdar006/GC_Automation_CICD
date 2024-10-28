@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@id=\"post-body-1307673142697428135\"]/div[4]/div[2]/label"
+}

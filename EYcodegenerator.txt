@@ -1,0 +1,34 @@
+**Positive Test Cases**
+
+| Test Case ID | Description | Expected Result |
+|---|---|---|
+| TC01 | Enter valid credentials (correct email and password) | Successful login |
+| TC02 | Enter valid credentials with special characters in password | Successful login |
+| TC03 | Enter valid credentials with whitespace in email | Successful login |
+| TC04 | Enter valid credentials with caps lock enabled | Successful login |
+| TC05 | Enter valid credentials with leading and trailing whitespaces | Successful login |
+
+**Negative Test Cases**
+
+| Test Case ID | Description | Expected Result |
+|---|---|---|
+| TC06 | Enter invalid credentials (incorrect email and password) | Error message displayed |
+| TC07 | Enter valid email with invalid password | Error message displayed |
+| TC08 | Enter invalid email with valid password | Error message displayed |
+| TC09 | Leave email field empty | Error message displayed |
+| TC10 | Leave password field empty | Error message displayed |
+| TC11 | Enter invalid email format (e.g., abc@example) | Error message displayed |
+| TC12 | Enter extremely long email (e.g., more than 100 characters) | Error message displayed |
+| TC13 | Enter extremely long password (e.g., more than 255 characters) | Error message displayed |
+| TC14 | Attempt to log in with an account that does not exist | Error message displayed |
+| TC15 | Attempt to log in with an account that is locked | Error message displayed |
+
+**Additional Test Cases**
+
+| Test Case ID | Description | Expected Result |
+|---|---|---|
+| TC16 | Click "Forgot Password" link | Password reset page is displayed |
+| TC17 | Click "Sign Up" link | Registration page is displayed |
+| TC18 | Attempt to log in while another session is active | Session timeout error displayed |
+| TC19 | Attempt to log in using an expired password | Error message displayed |
+| TC20 | Test accessibility features (e.g., screen reader support) | Page is accessible to users with disabilities |

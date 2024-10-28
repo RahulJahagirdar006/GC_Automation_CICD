@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@class='main-menu__horizontal']//div[1]/ul/li"
+}

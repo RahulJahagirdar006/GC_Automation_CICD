@@ -1,0 +1,3 @@
+{
+  "url": "https://euwdrh200cl01.spradv.sbp.local:44300/sap/bc/ui2/flp?sap-system-login-oninputprocessing=onProceed&sap-client=200&sap-language=EN"
+}

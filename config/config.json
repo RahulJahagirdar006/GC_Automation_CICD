@@ -1,0 +1,33 @@
+{
+    "hospitalEnv": {
+        "baseUrl": "https://shriramsoftwares.com/hospital/",
+        "appName": "Healthcare"
+    },
+    "financeEnv": {
+        "baseUrl": "https://shriramsoftwares.com/chit_fund/index.php/login",
+        "appName": "chitfund",
+        "appNamespec": "login.e2e"
+    }
+    ,
+    "flipkart": {
+        "baseUrl": "https://www.flipkart.com/",
+        "appName": "flipkart"
+    },
+    "Jamaica": {
+        "baseUrl": "https://flstg.discoverflow.lla.digital/jamaica",
+        "appName": "Jamaica",
+        "appNamespec": "Jamaica.e2e"
+    },
+    "Element": {
+        "baseUrl": "https://testautomationpractice.blogspot.com/",
+        "appName": "Element",
+        "appNamespec": "elements.e2e"
+    },
+    "sap": {
+        "baseUrl": "https://euwdrh200cl01.spradv.sbp.local:44300/sap/bc/ui2/flp?sap-system-login-oninputprocessing=onProceed&sap-client=200&sap-language=EN",
+        "appName": "sap",
+        "appNamespec": "saptest.e2e"
+    }
+
+    
+}

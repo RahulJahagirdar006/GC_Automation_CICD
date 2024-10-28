@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@class='sapMText sapUiSelectable sapMTextNoWrap sapMTextMaxWidth suggestText suggestNavItem suggestListItemCell']"
+}

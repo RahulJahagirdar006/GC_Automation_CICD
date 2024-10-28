@@ -1,0 +1,4 @@
+{
+  "script": "return ((done) => {\r\n            console.log('this should not fail')\r\n            setTimeout(done, 59000)\r\n        }).apply(null, arguments)",
+  "args": []
+}

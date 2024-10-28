@@ -1,0 +1,66 @@
+**Test Case 1: Successful Login**
+
+* **Test Steps:**
+    1. Open the Flipkart login page.
+    2. Enter a valid email address or phone number.
+    3. Enter a valid password.
+    4. Click the "Login" button.
+* **Expected Results:**
+    * The user should be successfully logged in and redirected to their account page.
+
+**Test Case 2: Invalid Email/Phone Number**
+
+* **Test Steps:**
+    1. Open the Flipkart login page.
+    2. Enter an invalid email address or phone number.
+    3. Enter a valid password.
+    4. Click the "Login" button.
+* **Expected Results:**
+    * An error message should be displayed, indicating that the email/phone number is invalid.
+
+**Test Case 3: Invalid Password**
+
+* **Test Steps:**
+    1. Open the Flipkart login page.
+    2. Enter a valid email address or phone number.
+    3. Enter an invalid password.
+    4. Click the "Login" button.
+* **Expected Results:**
+    * An error message should be displayed, indicating that the password is incorrect.
+
+**Test Case 4: Empty Email/Phone Number**
+
+* **Test Steps:**
+    1. Open the Flipkart login page.
+    2. Leave the email/phone number field blank.
+    3. Enter a valid password.
+    4. Click the "Login" button.
+* **Expected Results:**
+    * An error message should be displayed, indicating that the email/phone number field is empty.
+
+**Test Case 5: Empty Password**
+
+* **Test Steps:**
+    1. Open the Flipkart login page.
+    2. Enter a valid email address or phone number.
+    3. Leave the password field blank.
+    4. Click the "Login" button.
+* **Expected Results:**
+    * An error message should be displayed, indicating that the password field is empty.
+
+**Test Case 6: Password Visibility**
+
+* **Test Steps:**
+    1. Open the Flipkart login page.
+    2. Enter a valid email address or phone number.
+    3. Click the "Show" button next to the password field.
+* **Expected Results:**
+    * The password should be visible in plain text.
+
+**Test Case 7: Forgot Password Link**
+
+* **Test Steps:**
+    1. Open the Flipkart login page.
+    2. Click the "Forgot Password?" link.
+* **Expected Results:**
+    * The user should be redirected to the password reset page.

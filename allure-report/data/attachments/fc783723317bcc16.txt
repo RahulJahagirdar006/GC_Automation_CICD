@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "/html/body/lla-consumer-root/section/lla-main-menu/div[1]/div/div/div[2]/div[2]/lla-horizontal-menu/div/ul/li"
+}

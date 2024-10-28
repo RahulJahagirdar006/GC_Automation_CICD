@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//nav[@id='sidebar']/ul/li/a/i"
+}

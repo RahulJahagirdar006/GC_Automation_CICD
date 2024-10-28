@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//span[@class='ml-2 d-none d-lg-block']"
+}
